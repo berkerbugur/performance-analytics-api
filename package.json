@@ -1,0 +1,37 @@
+{
+  "name": "performance-analytics-app",
+  "version": "1.0.0",
+  "description": "API for an application to measure TTFB, FCP, Dom Load and Windows Load event performances and displayed as a timed chart.",
+  "main": "server.js",
+  "scripts": {
+    "start-dev": "nodemon server.js",
+    "test": "mocha --recursive --exit"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ]
+  },
+  "keywords": [
+    "performance",
+    "analytics",
+    "trendyol"
+  ],
+  "author": "Berker Buğur",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "mockgoose": "^8.0.4",
+    "mongoose": "^5.12.0",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
