@@ -1,0 +1,3 @@
+#performance-analytics-api
+
+An API for performance metric fetching and gathering. Using DBaaS, which is a bit slower than expected...
